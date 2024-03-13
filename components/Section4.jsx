@@ -34,7 +34,7 @@ const Section4 = () => {
   ];
   return (
     <div className="text-[50px] font-bold text-[#0a56f1] pt-[100px]">
-      Why should you Choose Stackkaroo's Website Development Service?
+      Why should you Choose Stackkaroos Website Development Service?
       <div className=" ">
         <div className="grid grid-cols-3 gap-8 pt-[100px]">
           {List.map((item, i) => {
@@ -47,6 +47,7 @@ const Section4 = () => {
                   src={item.image}
                   height={500}
                   width={500}
+                  alt={item.image}
                   className="w-20 h-20"
                 />
                 <p className="text-sm text-gray-600">{item.name}</p>

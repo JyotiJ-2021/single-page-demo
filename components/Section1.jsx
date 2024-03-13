@@ -8,7 +8,7 @@ const Section1 = () => {
       <div className="flex gap-8 w-full">
         <div className="flex flex-col gap-8">
           <p className="heroheading">
-            Boost Your Web Development Success with Stackkaroo's
+            Boost Your Web Development Success with Stackkaroo
           </p>
           <p className="heroheading2">PROJECT EXECUTION MODEL</p>
           <p className="letButton">
@@ -20,6 +20,7 @@ const Section1 = () => {
             src={imgaf}
             height={720}
             width={600}
+            alt="image"
             className="h-[720px] w-[650px]"
           />
         </div>
